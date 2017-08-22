@@ -1,0 +1,114 @@
+.header{
+  height: 200px;
+  position: relative;
+  width: 100%;
+  background-image:url(images/health/salsa.jpg);
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:crimson;
+}
+
+.active {
+    background-color:black;
+}
+
+.trainers{
+  border-style: ridge;
+  background-color: black;
+  height: 500px;
+  width: 30%;
+}
+#ivy {
+  float:left;
+  margin-top:0px;
+  margin-left: 50px;
+  -webkit-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  width : 56px;
+  line-height: 56px;
+  text-align: center;
+  border-radius: 50px;
+  border:0.5px solid white;
+  radius:25px;
+  transition: all .2s ease-out;
+  }
+  #charles {
+    float: right;
+    margin-top: 200px;
+    margin-right: -35px;
+    -webkit-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+    width : 56px;
+    line-height: 56px;
+    text-align: center;
+    border-radius: 50px;
+    border:0.5px solid white;
+    radius:25px;
+    transition: all .2s ease-out;
+    }
+.news{
+
+  /*background-color: orange;*/
+  width: 70%;
+  height: 700px;
+  display: inline-block;
+}
+.classes{
+  border-style: ridge;
+  /*background-color: yellow;*/
+  height: 300px;
+  width: 20%;
+
+}
+.diet{
+  border-style: ridge;
+  height: 300px;
+  width: 20%;
+  /*background-color: cyan;*/
+
+
+}
+.foodie{
+  border-style: outset;
+  height: 300px;
+  width: 50%;
+  /*background-color: green;*/
+
+}
+.booking{
+  border-style: ridge;
+  height: 300px;
+  width: 20%;
+  /*background-color: pink;*/
+
+}
+.footer{
+  background-color: purple;
+  height: 100px;
+width: 100%;
+}

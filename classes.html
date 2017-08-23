@@ -25,19 +25,64 @@
 
       </div>
     </div>
-
-    <p>so what do you think?</p>
-    <div class="classes col-lg-3" id="classes"> <!--different classes -->
-       <div class="salsa">
-
-       </div>
-       <div class="aerobics">
-
-       </div>
-       <div class="yoga">
-
-       </div>
+    <div class="row">
+     <div class=" classes col-lg-6" id="classes"> <!--different classes -->
+       <table>
+         <tr>
+           <th>Days</th>
+           <th>8.00am</th>
+           <th>2.00pm</th>
+           <th>6.00pm</th>
+         </tr>
+         <tr>
+           <td>Monday</td>
+           <td>Salsa</td>
+           <td>Aerobics</td>
+           <td>Yoga</td>
+         </tr>
+         <tr>
+           <td>Tuesday</td>
+           <td>Aerobics</td>
+           <td>Salsa</td>
+           <td>Yoga</td>
+         </tr>
+         <tr>
+           <td>Wednesday</td>
+           <td>Yoga</td>
+           <td>Aerobics</td>
+           <td>Salsa</td>
+         </tr>
+         <tr>
+           <td>Thursday</td>
+           <td>Salsa</td>
+           <td>Yoga</td>
+           <td>Aerobics</td>
+         </tr>
+         <tr>
+           <td>Friday</td>
+           <td>Yoga</td>
+           <td>Salsa</td>
+           <td>Aerobics</td>
+         </tr>
+       </table>
     </div>
+    <div class=" price">
+      <h5>Charges for the classes</h5>
+      <p>5 classes at ksh 2,500/=</p>
+      <p>8 classes at ksh 3,000/=</p>
+      <p>10 classes at ksh 3,500/=</p>
+      <p>15 classes at ksh 4,500/=</p>
+    </div>
+    <div class="total">
+      <h5>choose how many classes you want</h5>
+      <p>Salsa:
+        <input type="number" name="salsa" value=""v-model="Number"></p>
+      <p>Yoga:
+        <input type="number" name="yoga" value=""v-model="Number"></p>
+      <p>Aerobics:
+        <input type="number" name="aerobics" value=""v-model="Number"></p>
+    </div>
+  </div>
     <div class="booking col-lg-3"><!-- booking calender -->
 
     </div>

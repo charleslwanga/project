@@ -1,8 +1,12 @@
+.container-fluid{
+  /*background-image: url(images/health/aerobic.jpg);*/
+}
 .header{
   height: 200px;
   width: 100%;
   background-image:url(images/health/salsa.jpg);
-
+  background-color: red;
+  /*position: fixed;*/
 }
 ul {
     list-style-type: none;
@@ -38,13 +42,17 @@ li a:hover:not(.active) {
 
 .trainers{
   border-style: ridge;
-  background-color: black;
-  height: 500px;
-  width: 30%;
+  color: white;
+  background-image: url(images/health/dark2.jpg);
+  height: 450px;
+  width: 80%;
+  margin-right: 50px;
+  margin-left: 150px
+
 }
 #ivy {
   float:left;
-  margin-top:0px;
+  margin-top:-50px;
   margin-left: 50px;
   -webkit-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
@@ -56,10 +64,13 @@ li a:hover:not(.active) {
   radius:25px;
   transition: all .2s ease-out;
   }
+  #ivy image{
+    display: inline-block;
+  }
   #charles {
-    float: right;
-    margin-top: 200px;
-    margin-right: -35px;
+    float: left;
+    margin-top: 50px;
+    margin-left:50px;
     -webkit-transform: translate(-50%, 50%);
     transform: translate(-50%, 50%);
     width : 56px;
@@ -70,6 +81,14 @@ li a:hover:not(.active) {
     radius:25px;
     transition: all .2s ease-out;
     }
+  #charles image{
+    display: inline-block;
+  }
+
+  #para{
+    display: inline-block;
+    margin-top: 130px;
+  }
 .news{
 
   /*background-color: orange;*/
@@ -122,8 +141,8 @@ tr:nth-child(even) {
 }
 .booking{
   border-style: ridge;
-  height: 300px;
-  width: 80%;
+background-clip: border-box;
+  width: 100%;
   /*background-color: pink;*/
 
 }
